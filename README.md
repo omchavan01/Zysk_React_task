@@ -35,5 +35,5 @@ To run this project locally, follow these steps:
 The website is hosted on Vercel. You can access the live version here:
 
 ```bash
-https://github.com/omchavan01/Zysk_React_task.git
+https://zysk-react-task.vercel.app/
 ```
