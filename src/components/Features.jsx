@@ -16,7 +16,7 @@ const Features = () => {
       image_url: "/images/features/chart-breakout-square.png",
       feature_name: "Manage your team with reports",
       feature:
-        "Measure what matters with Untitled&apos;s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.",
+        "Measure what matters with Untitled's easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.",
     },
     {
       image_url: "/images/features/message-smile-circle.png",
@@ -34,7 +34,7 @@ const Features = () => {
       image_url: "/images/features/message-heart-circle.png",
       feature_name: "Our people make the difference",
       feature:
-        "We&apos;re an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.",
+        "We're an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.",
     },
   ];
 
@@ -52,11 +52,11 @@ const Features = () => {
       </div>
 
       {/* Features */}
-      <div className="flex flex-row flex-wrap gap-9 justify-center md:mt-6 mt-10 w-full">
+      <div className="flex flex-wrap gap-10 justify-center items-start md:mt-6 mt-10 w-full">
         {features.map((item, index) => {
           return (
             <div
-              className="container max-w-xs px-2 flex flex-col justify-center items-center md:mt-8 mt-3"
+              className="container md:max-w-[350px] w-full px-2 flex flex-col justify-center items-center md:mt-8 mt-3"
               key={index}
             >
               <div className="border-2 rounded-lg border-gray-200 w-12 h-12 flex justify-center items-center">

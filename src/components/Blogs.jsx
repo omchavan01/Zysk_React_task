@@ -55,10 +55,10 @@ const Blogs = () => {
       </div>
 
       {/* blogs */}
-      <div className="flex md:flex-row flex-col md:gap-9 gap-12 md:mt-16 mt-12 w-full justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-8 gap-12 md:mt-16 mt-12 w-full">
         {blogs.map((item, index) => {
           return (
-            <div className="h-auto md:max-w-1/3 md:w-1/3 w-full" key={index}>
+            <div className="h-auto" key={index}>
               <img
                 src={item.image_url}
                 alt="Blog Image"
