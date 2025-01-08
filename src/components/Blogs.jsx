@@ -33,7 +33,7 @@ const Blogs = () => {
   ];
 
   return (
-    <div className="py-16 md:p-24 px-4 w-full mx-auto">
+    <div className="py-16 md:py-24 md:px-16 px-4 w-full mx-auto">
       <div className="flex flex-row justify-between w-full">
         <div className="flex flex-col">
           <div className="text-features_content-0 font-semibold mb-3 text-sm md:text-base">

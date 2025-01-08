@@ -34,7 +34,8 @@ const FAQs = () => {
         "Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
     },
     {
-      question: "How do I change my account email?",
+      question:
+        "How do I change my account email?",
       answer:
         "Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
     },
@@ -60,13 +61,13 @@ const FAQs = () => {
               key={index}
             >
               <div
-                className="flex items-center justify-between gap-7 w-full cursor-pointer"
+                className="flex items-center justify-between md:gap-8 gap-3 w-full cursor-pointer"
                 onClick={() => handleViewMore(index)}
               >
-                <div className="text-headings-0 font-semibold text-lg">
+                <div className="text-headings-0 font-semibold text-lg flex-1">
                   {item.question}
                 </div>
-                <div className="w-5 h-5">
+                <div className="w-5 h-5 flex flex-shrink-0 items-center justify-center">
                   <img
                     src={
                       faq === index
@@ -78,7 +79,7 @@ const FAQs = () => {
                 </div>
               </div>
               {faq === index && (
-                <div className="mt-2 text-primary-0 mr-14">{item.answer}</div>
+                <div className="mt-2 text-primary-0 md:mr-14 mr-9">{item.answer}</div>
               )}
             </div>
           );
